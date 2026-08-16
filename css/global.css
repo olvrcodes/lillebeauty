@@ -1,0 +1,18 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*definição da fonte base do site (Montserrat)*/
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  /* definição da cor-base do site */
+  background-color: bisque;
+  font-family: "montserrat", sans-serif;
+}

@@ -1,0 +1,17 @@
+/* reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* como padrão, vamos pensar sempre no conceito de mobile first */
+  background-image: url(../img/fachada.jpeg);
+  height: 80px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}

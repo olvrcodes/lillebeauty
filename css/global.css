@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 
-/* definição de variáveis */
+/* definição das variáveis */
 :root {
+  /* variáveis de cor primeiro */
   --corFundo: #f7f4ec;
   --corLetraDourado: #a9895c;
 }
@@ -19,6 +20,6 @@
 
 body {
   /* definição da cor-base do site */
-  background-color: whitesmoke;
+  background-color: var(--corFundo);
   font-family: "montserrat", sans-serif;
 }

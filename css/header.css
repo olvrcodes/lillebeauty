@@ -7,11 +7,33 @@
 
 header {
   /* como padrão, vamos pensar sempre no conceito de mobile first */
-  background-image: url(../img/fachada.jpeg);
+  /* background-image: url(../img/fachada.jpeg);
   height: 80px;
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 30px;
+  margin-bottom: 30px; -> essa ideia de ter uma imagemd e fundo não deu muito certo... */
+
+  color: var(--corLetraDourado);
+  display: flex;
+  justify-content: space-between;
+
+  .logo-lille {
+    display: flex;
+  }
+
+  /* definição do tamnho da imagem do logo no header */
+  .logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: inline-block;
+  }
+
+  .hiperlinks {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+  }
 }

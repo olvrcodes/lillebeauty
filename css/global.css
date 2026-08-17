@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+/* definição de variáveis */
+:root {
+  --corFundo: #f7f4ec;
+  --corLetraDourado: #a9895c;
+}
+
 /*definição da fonte base do site (Montserrat)*/
 @font-face {
   font-family: "montserrat";

@@ -21,5 +21,6 @@
 body {
   /* definição da cor-base do site */
   background-color: var(--corFundo);
+  /*background-color: black;*/
   font-family: "montserrat", sans-serif;
 }
